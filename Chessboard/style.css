@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    text-align: center;
+    background-color: plum;
+}
+#header {
+    padding: 50px 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px white;
+}
+#chessboard {
+    border: 2px solid black;
+    box-shadow: 5px 5px 8px purple;
+    width: 470px;
+    height: 470px;
+    margin: 60px auto;
+}
+.firstcolor {
+    height: 90px;
+    width: 90px;
+    float: left;
+    background-color: whitesmoke;
+    display: table-cell;
+    vertical-align: middle;
+    border: 2px solid black;
+}
+.secondcolor {
+    height: 90px;
+    width: 90px;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: purple;
+    border: 2px solid black;
+}
