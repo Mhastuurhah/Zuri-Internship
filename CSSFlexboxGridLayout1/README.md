@@ -2,6 +2,7 @@
 ## A) Recreate a 3-column card design using CSS Flexbox  Layout
 - This task should be on the index.html file .
 - All information and images needed for the design can be found in the design folder in this repository
+- A Style guide for colors and fonts has also been provided "style-guide.md"
 
  
 
