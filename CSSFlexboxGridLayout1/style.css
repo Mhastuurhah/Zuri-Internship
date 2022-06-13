@@ -3,12 +3,30 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
-/*CSS for Flexbox*/
+header {
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+header button {
+    outline: 0;
+    cursor: pointer;
+    color: white;
+    background-color: #01AEFD;
+    border: 2px solid #01AEFD;
+    margin: 0 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
 .flex-container {
     display: flex;
-    margin: 120px auto;
+    margin: 100px auto;
     justify-content: center;
     color: white;
     width: 800px;
@@ -52,7 +70,7 @@ p {
 #button3 {
     color: hsl(179, 100%, 13%);
 }
-button {
+.flex-container button {
     cursor: pointer;
     outline: 0;
     background-color: white;
@@ -75,7 +93,7 @@ button {
     background-color: hsl(179, 100%, 13%);
     color: white;
 }
-button:hover {
+.flex-container button:hover {
     border: 2px solid white;
 }
 
@@ -83,7 +101,7 @@ button:hover {
 .grid-container {
     width: 700px;
     height: 500px;
-    margin: 100px auto;
+    margin: 90px auto;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     gap: 15px;
