@@ -12,6 +12,13 @@
 - The image needed is in the design folder
 - You can use any background color of your choice
 
+## The link to the hosted github pages:
+Flexbox: 
+https://mhastuurhah.github.io/Zuri-Internship/CSSFlexboxGridLayout1/index.html
+
+Grid Layout: 
+https://mhastuurhah.github.io/Zuri-Internship/CSSFlexboxGridLayout1/grid.html
+
 ## Screenshots
 ### 3-column card design
 ![Flexbox Active](https://user-images.githubusercontent.com/70760998/173374542-07e1bbea-8fff-4a3d-9b6c-774a702b3741.png)
