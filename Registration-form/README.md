@@ -2,6 +2,10 @@
 
  All information and images needed for the design can be found in the design folder.
  
+ The link to the hosted website is below:
+ 
+ https://mhastuurhah.github.io/Zuri-Internship/Registration-form/index.html
+ 
  ## Screenshots
  ### Desktop View
  ![desktop](https://user-images.githubusercontent.com/70760998/173702619-703ba510-8541-4417-9c82-f36aa82f6937.png)
