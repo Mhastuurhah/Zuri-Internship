@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-color: hsl(0, 100%, 74%) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+/* .container1, .container2, .item1, .item2, .item3 {
+    border: 2px solid black;
+} */
+.container1 {
+    display: flex;
+    padding: 50px;
+}
+.item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+}
+.item1 h1 {
+    font-size: 40px;
+    width: 350px;
+}
+.item1 p {
+    width: 500px;
+    padding-top: 20px;
+}
+.container2 {
+    padding: 20px;
+}
+.item2 {
+    text-align: center;
+    padding: 20px 0;
+}
+.item2 button {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    border: 2px solid hsl(248, 32%, 49%);
+    font-weight: 100;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#white {
+    font-weight: 700;
+}
+#red {
+    font-weight: 700;
+    cursor: pointer;
+    color: hsl(0, 100%, 74%);
+}
+.item3 p {
+    color: hsl(246, 25%, 77%);
+    font-size: 10px;
+    text-align: center;
+}
+::placeholder {
+    color: hsl(249, 10%, 26%);
+    font-size: 15px;
+    font-weight: 700;
+}
+.item3 input {
+    padding: 15px 250px 15px 15px;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid hsl(246, 25%, 77%);
+    margin: 10px;
+}
+.item3 button {
+    margin: 10px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    background-color: hsl(154, 59%, 51%);
+    border: 2px solid hsl(154, 59%, 51%);
+    font-weight: 700;
+    border-radius: 5px;
+}
+.item3 input:hover {
+    border: 2px solid hsl(248, 32%, 49%);
+}
+.item3 {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    .container1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        margin: auto;
+    }.item1, .item1 h1 {
+        text-align: center;
+        margin: auto;
+    }
+    .item3 {
+        padding: 10px;
+    }
+  }
