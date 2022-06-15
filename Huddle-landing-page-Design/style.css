@@ -243,8 +243,11 @@ footer a:hover {
     footer .footer a, .footer .location p {
         padding: 10px;
     }
+    footer {
+        width:fit-content;
+    } 
     footer .footer {
-        width:100%
+        width:fit-content;
         display: flex;
         flex-direction: column;
     }
