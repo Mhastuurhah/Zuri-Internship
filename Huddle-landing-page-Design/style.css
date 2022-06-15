@@ -124,6 +124,7 @@ footer {
     font-size: 15px;
     padding: 150px 50px 10px 50px; 
     background-color: hsl(192, 100%, 9%);
+    width:100%;
 }
 footer img {
     filter:  brightness(0) invert(1);
