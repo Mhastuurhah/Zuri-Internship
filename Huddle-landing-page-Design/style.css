@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 header {
-    background-image: url(/images/bg-hero-desktop.svg);
+    background-image: url(images/bg-hero-desktop.svg);
     padding: 20px;
     background-color: hsl(193, 100%, 96%);
 }
@@ -124,7 +124,7 @@ footer {
     font-size: 15px;
     padding: 150px 50px 10px 50px; 
     background-color: hsl(192, 100%, 9%);
-    width:100%;
+    width: 100%;
 }
 footer img {
     filter:  brightness(0) invert(1);
@@ -199,6 +199,7 @@ footer a:hover {
         background-image: url(images/bg-hero-mobile.svg);
         width: fit-content;
     }
+
     .huddleheader1 img {
         width: 40%;
     }  
@@ -244,10 +245,85 @@ footer a:hover {
         padding: 10px;
     }
     footer {
-        width:fit-content;
-    } 
+        width: 100%;
+        overflow-x: hidden;
+    }
     footer .footer {
-        width:fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .icons, .copyright {
+        text-align: center;
+
+    }
+}
+@media only screen and (max-width: 450px) { 
+    html, body {
+        margin: auto;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    header {
+        background-image: url(images/bg-hero-mobile.svg);
+        width: fit-content;
+        padding: 0;
+    }
+    .huddleheader1 {
+        width: 90%;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .huddleheader1 img {
+        width: 40%;
+    } 
+    header .huddleheader2 {
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        text-align: left;
+        padding-left: 10px;
+    }
+    header .huddleheader2 img {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 80%;
+        padding: 20px 0;
+    }
+    .main {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .mainmiddle {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main div, .main div p, #end1 h3, .mainmiddle div, .mainmiddle div p {
+        text-align: center;
+        margin: auto;
+    }
+    .main div p, .mainmiddle div p {
+        width: 100%;
+        color: hsl(208, 11%, 55%);
+    }
+    .main img, .mainmiddle img {
+        width: 100%;
+        margin: auto;
+    }
+    footer .footer a, .footer .location p {
+        padding: 10px;
+    }
+    footer {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    footer .footer {
         display: flex;
         flex-direction: column;
     }
